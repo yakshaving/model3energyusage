@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+
 import Layout from '../components/layout'
 
 const IndexPage = () => (
+
+  
   <Layout>
   	<img src="http://yakshaving.s3.amazonaws.com/energy-usage.jpg"/>
     <p>Thank you for your help with optimizing energy usage - I'll publish these results on r/TeslaMotors and the corresponding FB groups that data was collected from.  Questions or ideas for improvement? <a href="http://twitter.com/ashbhoopathy">Message me here</a></p>

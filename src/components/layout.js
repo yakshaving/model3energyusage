@@ -22,8 +22,13 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Model 3 energy usage data' },
+            { name: 'keywords', content: 'Model3, Tesla, energy, consumption, kwh, kilowatts' },
+            { property: 'og:image', content: 'http://yakshaving.s3.amazonaws.com/og.png'},
+            { property: 'og:image:url', content: 'http://yakshaving.s3.amazonaws.com/og.png'},
+            { property: 'og:url', content: 'https://model3energy.netlify.com/'},
+            { property: 'og:title', content: 'Model 3 energy usage data'},
+            { property: 'og:description', content: 'Track energy consumption of your Model 3 relative to others'},
           ]}
         >
           <html lang="en" />
